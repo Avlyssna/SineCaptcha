@@ -19,7 +19,7 @@ class CaptchaEngine(Session):
 
 	def bypass_captcha(self, host):
 		# Now would be a good time to mention some of the advanced features:
-		# 1. The  system is so developer-friendly that any UUID4 will pass as the correct site key.
+		# 1. The system is so developer-friendly that any UUID4 will pass as the correct site key.
 		# No more worrying about typos or bad coding, the backend allows all keys to pass!
 		site_key = str(uuid4())
 
